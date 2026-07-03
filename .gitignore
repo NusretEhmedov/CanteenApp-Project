@@ -1,0 +1,29 @@
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.elc
+.pytest_cache/
+
+# Streamlit Local Configuration & Environment Secrets
+.streamlit/config.toml
+.streamlit/secrets.toml
+.env
+
+# SQL Server / SSMS Database Artifacts (Never upload raw database files)
+*.mdf
+*.ldf
+*.bak
+*.sqlproj
+*.suo
+*.user
+
+# Operating System Files
+.DS_Store
+Thumbs.db
