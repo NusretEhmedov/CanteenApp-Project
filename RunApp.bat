@@ -1,0 +1,3 @@
+@echo off
+echo Starting Canteen Inventory Manager...
+python -m streamlit run C:\Users\nusre\Downloads\CanteenApp\CanteenApp\app.py
